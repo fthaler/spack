@@ -163,7 +163,7 @@ class Xsdk(BundlePackage):
     depends_on('precice@1.6.1 +petsc', when='@0.5.0 +precice')
 
     depends_on('butterflypack@master', when='@develop +butterflypack')
-    depends_on('butterflypack@1.0.3', when='@0.5.0 +butterflypack')
+    depends_on('butterflypack@master', when='@0.5.0 +butterflypack')
 
     # xSDKTrilinos depends on the version of Trilinos built with
     # +tpetra which is turned off for faster xSDK
