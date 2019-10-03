@@ -134,8 +134,8 @@ class Xsdk(BundlePackage):
 
     depends_on('tasmanian@develop+xsdkflags+blas~openmp', when='@develop')
     depends_on('tasmanian@develop+xsdkflags+blas+cuda+magma~openmp', when='@develop +cuda')
-    depends_on('tasmanian@6.0+xsdkflags+blas~openmp', when='@0.5.0')
-    depends_on('tasmanian@6.0+xsdkflags+blas+cuda+magma~openmp', when='@0.5.0 +cuda')
+    depends_on('tasmanian@7.0+xsdkflags+blas~openmp', when='@0.5.0')
+    depends_on('tasmanian@7.0+xsdkflags+blas+cuda+magma~openmp', when='@0.5.0 +cuda')
     depends_on('tasmanian@6.0+xsdkflags+blas~openmp', when='@0.4.0')
     depends_on('tasmanian@6.0+xsdkflags+blas+cuda+magma~openmp', when='@0.4.0 +cuda')
 
