@@ -125,7 +125,7 @@ class Xsdk(BundlePackage):
     depends_on('omega-h@9.19.1', when='@0.4.0 +omega-h')
 
     depends_on('strumpack@master', when='@develop')
-    depends_on('strumpack@master', when='@0.5.0')
+    depends_on('strumpack@3.2.0', when='@0.5.0')
     depends_on('strumpack@3.1.1', when='@0.4.0')
 
     depends_on('pumi@develop', when='@develop')
